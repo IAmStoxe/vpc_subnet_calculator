@@ -1,0 +1,173 @@
+body {
+  fill: white;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 800px;
+}
+
+svg {
+  height: 350px;
+}
+
+#csv {
+  margin-left: 10px;
+}
+
+#csv .btn {
+  height: 34px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.alert {
+  float: left;
+  margin: auto;
+}
+
+.alert-container {
+  height: 50px;
+  margin: 10px;
+}
+
+.available rect {
+  fill: transparent;
+  stroke: #939393;
+}
+
+.available:hover rect {
+  fill: green;
+}
+
+.delete-button {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.ipam-add {
+  width: 150px;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.ipam-add:hover {
+  background: lightgray;
+}
+
+.ipam-add-bar {
+  background: #034E7B;
+  height: 12px;
+}
+
+.ipam-add-hosts {
+  width: 90px;
+  float: left;
+  margin-left: 5px;
+  margin-top: -7px;
+  text-align: left;
+}
+
+.ipam-add-mask {
+  float: left;
+  width: 50px;
+  font-size: 2em;
+  text-align: right;
+}
+
+.ipam-reference-bar {
+  background: #74A9CF;
+  width: 90%;
+  height: 12px;
+}
+
+.ipam-subnet-text {
+  margin-left: 20px;
+  cursor: default;
+  font-size: 3em;
+}
+
+.ipam-subnet-rect {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.popover {
+  padding-bottom: 15px;
+  max-width: none;
+  color: black;
+}
+
+.popover .form-horizontal .control-label {
+  width: 60px;
+}
+
+.popover .form-horizontal .controls {
+  margin-left: 80px;
+}
+
+.popover-text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.undo-button {
+  margin-left: 50px;
+}
+
+.viz {
+  font-size: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#top-subnet {
+  margin-left: 10px;
+  color: white;
+  background-color: #034E7B;
+  border: 1px solid white;
+}
+
+#top-subnet .ts-input {
+  width: 40%;
+  height: 1.6em;
+  color: white;
+  background: rgba(255,255,255,0.1);
+  box-shadow: none;
+  border: none;
+  font-size: 2.8em;
+  padding: 0 0.2em;
+  margin: 0.09em;
+  float: left;
+}
+
+#ts-name {
+  width: 22%;
+  height: 2.7em;
+  font-size: 1.6em;
+  float: left;
+  margin-top: 5px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+#ts-host {
+  max-width: 172px;
+  overflow: hidden;
+}
+
+.ts-table {
+  width: 34%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 1em;
+  line-height: 16px;
+}
+
+.ts-table th {
+  padding-right: 1em;
+  margin-right: 1em;
+}
+
